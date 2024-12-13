@@ -1,4 +1,4 @@
-**Q4. Q1. Create a basic class (Student)**
+**Q1. Create a basic class (Student)**
 
 _Raw Problem_
 
