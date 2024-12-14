@@ -43,6 +43,7 @@ different modules covering:
     - **Tic Tac Toe** 🏨
         - Functionalities:
             - Tic Tac Toe Undo Feature [🔗](/lld-3/src/main/java/class3/tttundo)
+            - Tic Tac Toe Winner Checker Feature [🔗](/lld-3/src/main/java/class3/tttwinnerchecker)
 
 ## Recent Updates
 

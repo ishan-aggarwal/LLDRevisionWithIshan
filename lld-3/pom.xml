@@ -16,6 +16,7 @@
     <name>lld-3</name>
 
     <properties>
+        <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
         <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
