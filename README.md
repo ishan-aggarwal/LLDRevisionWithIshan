@@ -40,6 +40,9 @@ different modules covering:
             - Book Rooms [🔗](/lld-3/src/main/java/class2/bookrooms)
             - Add Hotel Rooms [🔗](/lld-3/src/main/java/class2/addroomshotelmanagement)
             - Get Rooms [🔗](/lld-3/src/main/java/class2/getrooms)
+    - **Tic Tac Toe** 🏨
+        - Functionalities:
+            - Tic Tac Toe Undo Feature [🔗](/lld-3/src/main/java/class3/tttundo)
 
 ## Recent Updates
 
