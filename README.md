@@ -45,6 +45,7 @@ different modules covering:
             - Tic Tac Toe Undo Feature [🔗](/lld-3/src/main/java/class3/tttundo)
             - Tic Tac Toe Winner Checker Feature [🔗](/lld-3/src/main/java/class3/tttwinnerchecker)
     - **Board Game Creation Factory Design Pattern** 🏨 [🔗](/lld-3/src/main/java/class3/boardgamecreation)
+    - **Database Connection Factory Design Pattern** 🏨 [🔗](/lld-3/src/main/java/class3/databaseconnection)
 
 ## Recent Updates
 
