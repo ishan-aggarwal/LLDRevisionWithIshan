@@ -30,6 +30,8 @@ different modules covering:
             - Object Cloning in Testing [🔗](/lld-2/src/main/java/prototype/q1)
             - Efficient Invoice Generation [🔗](/lld-2/src/main/java/prototype/q2)
             - Configuration Object Cloning [🔗](/lld-2/src/main/java/prototype/q3)
+        - 🧬 Factory [🔗](/lld-2/src/main/java/factory)
+            - Simple Factory Pattern for Document Processing [🔗](/lld-2/src/main/java/factory/q1)
 
 3. **Low Level Design 3 (Design Problems)** [🔗](/lld-3/)
     - **Hotel Management System** 🏨
