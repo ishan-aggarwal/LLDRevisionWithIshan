@@ -88,6 +88,7 @@ different modules covering:
             - Additional Services at Parking Lot 🛠️🚘 [🔗](/lld-3/src/main/java/class5/parkinglotadditionalservices)
     - **Calculate aggregated revenue for Restaurant Management System**
       💰🍴 [🔗](/lld-3/src/main/java/class6/calculaterevenue)
+    - **Generate Bill for Restaurant Management System** 🧾🍴 [🔗](/lld-3/src/main/java/class6/generatebill)
 
 ## Recent Updates
 
