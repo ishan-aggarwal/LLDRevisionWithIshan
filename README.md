@@ -49,6 +49,11 @@ different modules covering:
         - 🦋 Flyweight [🔗](/lld-2/src/main/java/structural/flyweight)
             - Flyweight Pattern for Chess User Optimization ♟️📈 [🔗](/lld-2/src/main/java/structural/flyweight/q1)
             - Flyweight Pattern for Graphical Editing Software 🖌️💻 [🔗](/lld-2/src/main/java/structural/flyweight/q2)
+    - **Behavioural Design Patterns**
+        - 🏢 Strategy [🔗](/lld-2/src/main/java/behavioural/strategy)
+            - Strategy Pattern for Video Streaming Quality Adjustment
+              ♟️📈 [🔗](/lld-2/src/main/java/behavioural/strategy/q1)
+        - 🛠️ Observer [🔗](/lld-2/src/main/java/behavioural/observer)
 
 3. **Low Level Design 3 (Design Problems)** [🔗](/lld-3/)
     - **Hotel Management System** 🏨
