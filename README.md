@@ -46,6 +46,8 @@ different modules covering:
         - 🏢 Adapter [🔗](/lld-2/src/main/java/structural/adapter)
             - Adapter Pattern for Language Translation Integration 🌍✈️ [🔗](/lld-2/src/main/java/structural/adapter/q1)
             - Adapter Pattern for Insurance Providers Integration 🌍✈️ [🔗](/lld-2/src/main/java/structural/adapter/q2)
+        - 🏢 Flyweight [🔗](/lld-2/src/main/java/structural/flyweight)
+            - Flyweight Pattern for Chess User Optimization 🌍✈️ [🔗](/lld-2/src/main/java/structural/flyweight/q1)
 
 3. **Low Level Design 3 (Design Problems)** [🔗](/lld-3/)
     - **Hotel Management System** 🏨
