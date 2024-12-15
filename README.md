@@ -36,6 +36,7 @@ different modules covering:
             - Simple Factory Pattern for Notification System [🔗](/lld-2/src/main/java/factory/q3)
         - 🧬 Abstract Factory [🔗](/lld-2/src/main/java/abstractfactory)
             - Abstract Factory Pattern for Document Processing [🔗](/lld-2/src/main/java/abstractfactory/q1)
+            - Abstract Factory Pattern for Notifications [🔗](/lld-2/src/main/java/abstractfactory/q3)
 
 3. **Low Level Design 3 (Design Problems)** [🔗](/lld-3/)
     - **Hotel Management System** 🏨
