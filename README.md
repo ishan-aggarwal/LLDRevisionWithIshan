@@ -93,13 +93,13 @@ different modules covering:
     - **Implement functionality using which customers can browse the menu items**
       🍽️📜 [🔗](/lld-3/src/main/java/class6/getmenuitems)
     - **Add Menu Items for Restaurant Management System** 🍽️📜 [🔗](/lld-3/src/main/java/class6/addmenuitems)
-    - **Implement Inventory Management for an E-Commerce Platform** [🔗](/lld-3/src/main/java/class8/inventorymanagement)
-    - **Estimate delivery time functionality for an e-commerce platform** [🔗](/lld-3/src/main/java/class8/deliveryestimate)
-    - **Implement notify users for out of stock products functionality for an e-commerce platform** [🔗](/lld-3/src/main/java/class8/outofstocknotification)
-    - **Implement cancel order functionality for an e-commerce platform** [🔗](/lld-3/src/main/java/class8/cancelorder) 
-    - **Implement URL Shortener like bit.ly** [🔗](/lld-3/src/main/java/class8/bitlyshortenurl)
-    - **Implement ratings functionality for movies** [🔗](/_rate-movies)
-    - **Register user for Book My Show** [🔗](/_register-user)
+    - **Implement Inventory Management for an E-Commerce Platform** 📦📋 [🔗](/lld-3/src/main/java/class8/inventorymanagement)
+    - **Estimate delivery time functionality for an e-commerce platform** 🕒🚚 [🔗](/lld-3/src/main/java/class8/deliveryestimate)
+    - **Implement notify users for out of stock products functionality for an e-commerce platform** 🔔📦 [🔗](/lld-3/src/main/java/class8/outofstocknotification)
+    - **Implement cancel order functionality for an e-commerce platform** ❌📦 [🔗](/lld-3/src/main/java/class8/cancelorder) 
+    - **Implement URL Shortener like bit.ly** 🔗✂️ [🔗](/lld-3/src/main/java/class8/bitlyshortenurl)
+    - **Implement ratings functionality for movies** 🎥⭐ [🔗](/_rate-movies)
+    - **Register user for Book My Show** 🎟️👤 [🔗](/_register-user)
 
 ## Recent Updates
 
