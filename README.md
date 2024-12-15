@@ -53,6 +53,8 @@ different modules covering:
         - 🏢 Strategy [🔗](/lld-2/src/main/java/behavioural/strategy)
             - Strategy Pattern for Video Streaming Quality Adjustment
               ♟️📈 [🔗](/lld-2/src/main/java/behavioural/strategy/q1)
+            - Refactoring Pricing Calculation with the Strategy Pattern
+              ️📈 [🔗](/lld-2/src/main/java/behavioural/strategy/q2)
         - 🛠️ Observer [🔗](/lld-2/src/main/java/behavioural/observer)
 
 3. **Low Level Design 3 (Design Problems)** [🔗](/lld-3/)
