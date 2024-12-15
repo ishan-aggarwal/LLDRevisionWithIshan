@@ -99,6 +99,7 @@ different modules covering:
     - **Implement cancel order functionality for an e-commerce platform** [🔗](/lld-3/src/main/java/class8/cancelorder) 
     - **Implement URL Shortener like bit.ly** [🔗](/lld-3/src/main/java/class8/bitlyshortenurl)
     - **Implement ratings functionality for movies** [🔗](/_rate-movies)
+    - **Register user for Book My Show** [🔗](/_register-user)
 
 ## Recent Updates
 
