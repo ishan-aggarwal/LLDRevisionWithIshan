@@ -60,7 +60,7 @@ different modules covering:
         - 🛠️ Observer [🔗](/lld-2/src/main/java/behavioural/observer)
             - Observer Pattern for Stock Trading Platform
               ♟️📈 [🔗](/lld-2/src/main/java/behavioural/observer/q1)
-            - Refactoring Pricing Calculation with the Strategy Pattern
+            - Observer Pattern for Weather Monitoring System
               ️📈 [🔗](/lld-2/src/main/java/behavioural/observer/q2)
             - Refactoring Pricing Calculation with the Strategy Pattern
               📈 [🔗](/lld-2/src/main/java/behavioural/observer/q3)

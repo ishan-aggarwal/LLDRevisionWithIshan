@@ -1,46 +1,45 @@
-# Strategy Pattern for Video Streaming Quality Adjustment
+# Observer Pattern for Weather Monitoring System
 
 ## Problem Statement
 
-You are developing a video streaming platform that offers different streaming qualities, such as low, standard, and high
-definition. The platform should dynamically adjust the streaming quality based on the user's network conditions to
-ensure smooth playback. Additionally, more quality adjustment algorithms may be added in the future. Your task is to
-implement this dynamic quality adjustment system using the Strategy pattern.
+You are developing a weather monitoring system that collects data from various sensors such as temperature, humidity,
+and pressure sensors. When any sensor reading goes beyond a predefined threshold, you need to notify different weather
+stations through various communication channels like emails, SMS, and push notifications. Your task is to implement the
+Observer pattern to create a flexible notification system for this weather monitoring system.
 
 ## Assignment
 
-Your assignment is to implement the Strategy pattern to create strategies for adjusting video streaming quality. The
-existing code provides a starting point, but you need to complete the implementation.
+Your goal is to implement the Observer pattern to refactor the existing `WeatherMonitoringApplication` class. The
+current class handles weather condition updates and notifications. Observer classes (e.g., `TemperatureService`,
+`PressureService`, `HumidityService`) need to be notified when any of the weather readings go beyond their respective
+thresholds.
 
-### Task 1: Implement Strategy Interface
+## Implementing the Observer Pattern
 
-1. Use the existing `QualityAdjustmentStrategy` interface, which defines the `supportsType` method that returns the
-   `VideoQuality` supported by the strategy.
-2. Add a new method `adjust` to the `QualityAdjustmentStrategy` interface that accepts a `Video` object and returns a
-   modified `Video` object with adjusted quality settings.
+1. **Review the original class**: Study the `WeatherMonitoringApplication` class and its dependencies. Understand how it
+   currently handles weather condition updates and notifications.
 
-### Task 2: Implement Concrete Strategies
+2. **Implement the publisher class**: You have been provided with a `Publisher` abstract class. Implement the required
+   methods defined by this interface in the `WeatherMonitoringApplication` class. Remember that the `Publisher`
+   interface defines the methods that a class can use to notify observers.
 
-1. Create three concrete strategy classes, each corresponding to a different video quality (LOW, MEDIUM, HIGH).
-   Implement the `supportsType` method to return the supported quality.
-2. Implement the `adjust` method for each concrete strategy to adjust the `Video` object's quality settings based on the
-   quality level. Copy the implementation code from the original `VideoStreamingManager` class.
+3. **Implement the observer interface**: Create an interface named `Observer` with a method that takes the weather
+   conditions (e.g., temperature, humidity, pressure) as arguments. Observer classes (e.g., `TemperatureService`,
+   `PressureService`, `HumidityService`) will implement this interface to receive notifications.
 
-### Task 3: Update `VideoStreamingManager`
+4. **Refactor the publisher**: Modify the `WeatherMonitoringApplication` class to adhere to the Observer pattern. **Do
+   not change the constructor signature** as it's used by the tests.
 
-1. Modify the `VideoStreamingManager` class to accept a `QualityAdjustmentStrategy` object in the constructor.
-2. Implement the `streamVideo` method in the `VideoStreamingManager` class to use the provided strategy to adjust the
-   video's quality settings.
+5. **Refactor the observers**: Update the observer classes to implement the `Observer` interface. Modify their existing
+   methods to match the new interface method signature.
 
-## Testing Instructions
+6. **Test your implementation**: Run the provided test cases in the `WeatherMonitoringTests` class to verify that your
+   observer pattern implementation works correctly. These test cases will check if observers are notified appropriately
+   and if the `WeatherMonitoringApplication` functions as expected.
 
-1. Ensure that you have implemented the Strategy pattern correctly by passing the provided test cases in the
-   `VideoStreamingManagerTest` class.
-2. The test cases validate that there are three concrete strategies, that the `QualityAdjustmentStrategy` interface has
-   the required methods, and that the `VideoStreamingManager` class is correctly updated to use the strategy for quality
-   adjustment.
-3. Make sure that the `adjust` method in each strategy class correctly adjusts the video's quality settings based on the
-   supported quality.
+## Instructions
 
-Remember to refactor the existing code to use the Strategy pattern and ensure that your tests pass successfully. Good
-luck with your assignment!
+1. Implement the Observer pattern by completing the `Publisher` and `Observer` interfaces and modifying the observer
+   classes (`TemperatureService`, `PressureService`, `HumidityService`) and the `WeatherMonitoringSystem` class.
+2. Run the provided test cases in the `WeatherMonitoringTests` class to verify the correctness of your observer pattern
+   implementation.
