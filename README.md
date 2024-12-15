@@ -101,6 +101,7 @@ different modules covering:
     - **Implement ratings functionality for movies** 🎥⭐ [🔗](/_rate-movies)
     - **Register user for Book My Show** 🎟️👤 [🔗](/_register-user)
     - **Implement place order functionality for an e-commerce platform** [🔗](/_ecom_place_order)
+    - **Create a show for Book My Show** [🔗](/_bms_create_show)
 
 ## Recent Updates
 
