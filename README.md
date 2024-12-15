@@ -86,6 +86,8 @@ different modules covering:
             - Display parking lot capacity 🚗🅿️ [🔗](/lld-3/src/main/java/class5/parkinglotcapacity)
             - Generate Ticket for Parking Lot System 🎟️🚗 [🔗](/lld-3/src/main/java/class5/parkinglotticket)
             - Additional Services at Parking Lot 🛠️🚘 [🔗](/lld-3/src/main/java/class5/parkinglotadditionalservices)
+    - **Calculate aggregated revenue for Restaurant Management System**
+      💰🍴 [🔗](/lld-3/src/main/java/class6/calculaterevenue)
 
 ## Recent Updates
 
