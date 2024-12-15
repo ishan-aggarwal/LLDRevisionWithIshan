@@ -32,6 +32,8 @@ different modules covering:
             - Configuration Object Cloning [🔗](/lld-2/src/main/java/prototype/q3)
         - 🧬 Factory [🔗](/lld-2/src/main/java/factory)
             - Simple Factory Pattern for Document Processing [🔗](/lld-2/src/main/java/factory/q1)
+            - Simple Factory Pattern for Audio Player [🔗](/lld-2/src/main/java/factory/q2)
+            - Simple Factory Pattern for Notification System [🔗](/lld-2/src/main/java/factory/q3)
 
 3. **Low Level Design 3 (Design Problems)** [🔗](/lld-3/)
     - **Hotel Management System** 🏨
