@@ -43,6 +43,8 @@ different modules covering:
             - Facade pattern for a travel booking platform 🌍✈️ [🔗](/lld-2/src/main/java/structural/facade/q1)
             - Facade pattern for Data Analysis Application 📑 [🔗](/lld-2/src/main/java/structural/facade/q2)
             - Facade pattern for image editing application 📢 [🔗](/lld-2/src/main/java/structural/facade/q3)
+        - 🏢 Adapter [🔗](/lld-2/src/main/java/structural/adapter)
+            - Adapter Pattern for Language Translation Integration 🌍✈️ [🔗](/lld-2/src/main/java/structural/adapter/q1)
 
 3. **Low Level Design 3 (Design Problems)** [🔗](/lld-3/)
     - **Hotel Management System** 🏨
