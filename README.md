@@ -95,6 +95,7 @@ different modules covering:
     - **Add Menu Items for Restaurant Management System** 🍽️📜 [🔗](/lld-3/src/main/java/class6/addmenuitems)
     - **Implement Inventory Management for an E-Commerce Platform** [🔗](/lld-3/src/main/java/class8/inventorymanagement)
     - **Estimate delivery time functionality for an e-commerce platform** [🔗](/lld-3/src/main/java/class8/deliveryestimate)
+    - **Implement notify users for out of stock products functionality for an e-commerce platform** [🔗](/lld-3/src/main/java/class8/outofstocknotification)
 
 ## Recent Updates
 
