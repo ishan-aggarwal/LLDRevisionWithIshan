@@ -41,14 +41,14 @@ different modules covering:
     - **Structural Design Patterns**
         - 🏢 Facade [🔗](/lld-2/src/main/java/structural/facade)
             - Facade pattern for a travel booking platform 🌍✈️ [🔗](/lld-2/src/main/java/structural/facade/q1)
-            - Facade pattern for Data Analysis Application 📑 [🔗](/lld-2/src/main/java/structural/facade/q2)
-            - Facade pattern for image editing application 📢 [🔗](/lld-2/src/main/java/structural/facade/q3)
-        - 🏢 Adapter [🔗](/lld-2/src/main/java/structural/adapter)
-            - Adapter Pattern for Language Translation Integration 🌍✈️ [🔗](/lld-2/src/main/java/structural/adapter/q1)
-            - Adapter Pattern for Insurance Providers Integration 🌍✈️ [🔗](/lld-2/src/main/java/structural/adapter/q2)
-        - 🏢 Flyweight [🔗](/lld-2/src/main/java/structural/flyweight)
-            - Flyweight Pattern for Chess User Optimization 🌍✈️ [🔗](/lld-2/src/main/java/structural/flyweight/q1)
-            - Flyweight Pattern for Graphical Editing Software 🌍✈️ [🔗](/lld-2/src/main/java/structural/flyweight/q2)
+            - Facade pattern for Data Analysis Application 📊 [🔗](/lld-2/src/main/java/structural/facade/q2)
+            - Facade pattern for image editing application 🎨🖼️ [🔗](/lld-2/src/main/java/structural/facade/q3)
+        - 🛠️ Adapter [🔗](/lld-2/src/main/java/structural/adapter)
+            - Adapter Pattern for Language Translation Integration 🗣️🌐 [🔗](/lld-2/src/main/java/structural/adapter/q1)
+            - Adapter Pattern for Insurance Providers Integration 🏦🛡️ [🔗](/lld-2/src/main/java/structural/adapter/q2)
+        - 🦋 Flyweight [🔗](/lld-2/src/main/java/structural/flyweight)
+            - Flyweight Pattern for Chess User Optimization ♟️📈 [🔗](/lld-2/src/main/java/structural/flyweight/q1)
+            - Flyweight Pattern for Graphical Editing Software 🖌️💻 [🔗](/lld-2/src/main/java/structural/flyweight/q2)
 
 3. **Low Level Design 3 (Design Problems)** [🔗](/lld-3/)
     - **Hotel Management System** 🏨
