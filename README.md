@@ -81,6 +81,7 @@ different modules covering:
     - **Integrate Cloud Service Provider** ☁️📡 [🔗](/lld-3/src/main/java/class3/cloudproviders)
     - **Integrate Payment Gateway for Restaurant Management System**
       💳🍴 [🔗](/lld-3/src/main/java/class5/changepaymentgateway)
+    - **Display parking lot capacity** 🚗🅿️ [🔗](/lld-3/src/main/java/class5/parkinglotcapacity)
 
 ## Recent Updates
 
