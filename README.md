@@ -90,6 +90,8 @@ different modules covering:
       💰🍴 [🔗](/lld-3/src/main/java/class6/calculaterevenue)
     - **Generate Bill for Restaurant Management System** 🧾🍴 [🔗](/lld-3/src/main/java/class6/generatebill)
     - **Track orders for Restaurant Management System** 📦🍴 [🔗](/lld-3/src/main/java/class6/placeorder)
+    - **Implement functionality using which customers can browse the menu items**
+      🍽️📜 [🔗](/lld-3/src/main/java/class6/getmenuitems)
 
 ## Recent Updates
 
