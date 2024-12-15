@@ -55,6 +55,8 @@ different modules covering:
               ♟️📈 [🔗](/lld-2/src/main/java/behavioural/strategy/q1)
             - Refactoring Pricing Calculation with the Strategy Pattern
               ️📈 [🔗](/lld-2/src/main/java/behavioural/strategy/q2)
+            - Refactoring Pricing Calculation with the Strategy Pattern
+              📈 [🔗](/lld-2/src/main/java/behavioural/strategy/q3)
         - 🛠️ Observer [🔗](/lld-2/src/main/java/behavioural/observer)
 
 3. **Low Level Design 3 (Design Problems)** [🔗](/lld-3/)
