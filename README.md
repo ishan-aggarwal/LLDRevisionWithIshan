@@ -100,6 +100,7 @@ different modules covering:
     - **Implement URL Shortener like bit.ly** 🔗✂️ [🔗](/lld-3/src/main/java/class8/bitlyshortenurl)
     - **Implement ratings functionality for movies** 🎥⭐ [🔗](/_rate-movies)
     - **Register user for Book My Show** 🎟️👤 [🔗](/_register-user)
+    - **Implement place order functionality for an e-commerce platform** [🔗](/_ecom_place_order)
 
 ## Recent Updates
 
