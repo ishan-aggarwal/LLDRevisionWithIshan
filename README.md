@@ -81,8 +81,11 @@ different modules covering:
     - **Integrate Cloud Service Provider** ☁️📡 [🔗](/lld-3/src/main/java/class3/cloudproviders)
     - **Integrate Payment Gateway for Restaurant Management System**
       💳🍴 [🔗](/lld-3/src/main/java/class5/changepaymentgateway)
-    - **Display parking lot capacity** 🚗🅿️ [🔗](/lld-3/src/main/java/class5/parkinglotcapacity)
-    - **Generate Ticket for Parking Lot System** 🎟️🚗 [🔗](/lld-3/src/main/java/class5/parkinglotticket)
+    - **Parking Lot** 🚗🅿️
+        - Functionalities:
+            - Display parking lot capacity 🚗🅿️ [🔗](/lld-3/src/main/java/class5/parkinglotcapacity)
+            - Generate Ticket for Parking Lot System 🎟️🚗 [🔗](/lld-3/src/main/java/class5/parkinglotticket)
+            - Additional Services at Parking Lot 🛠️🚘 [🔗](/lld-3/src/main/java/class5/parkinglotadditionalservices)
 
 ## Recent Updates
 
