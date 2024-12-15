@@ -1,46 +1,45 @@
-# Strategy Pattern for Video Streaming Quality Adjustment
+# Observer Pattern for Task Management Application
 
 ## Problem Statement
 
-You are developing a video streaming platform that offers different streaming qualities, such as low, standard, and high
-definition. The platform should dynamically adjust the streaming quality based on the user's network conditions to
-ensure smooth playback. Additionally, more quality adjustment algorithms may be added in the future. Your task is to
-implement this dynamic quality adjustment system using the Strategy pattern.
+You are building a task management application where users can create tasks and assign them to different team members.
+To enhance the user experience, Joe, a developer on your team, wants to implement a feature where team members receive
+notifications whenever they are assigned a new task. These notifications should be sent through various communication
+channels, such as in-app alerts, emails, and Slack messages. Joe believes that implementing the Observer pattern will
+provide a flexible and maintainable solution for this requirement.
 
 ## Assignment
 
-Your assignment is to implement the Strategy pattern to create strategies for adjusting video streaming quality. The
-existing code provides a starting point, but you need to complete the implementation.
+Your assignment is to implement the Observer pattern to create a flexible notification system for the task management
+application. The `TaskManager` class handles task assignments, and various observer classes (e.g., `AlertService`,
+`EmailService`, `SlackService`) need to be notified when a new task is assigned to a team member.
 
-### Task 1: Implement Strategy Interface
+## Implementing the Observer Pattern
 
-1. Use the existing `QualityAdjustmentStrategy` interface, which defines the `supportsType` method that returns the
-   `VideoQuality` supported by the strategy.
-2. Add a new method `adjust` to the `QualityAdjustmentStrategy` interface that accepts a `Video` object and returns a
-   modified `Video` object with adjusted quality settings.
+1. **Understand the original class**: Take a closer look at the `TaskManager` class and its interactions with the task
+   database and notification services. Understand how tasks are assigned and notifications are sent.
 
-### Task 2: Implement Concrete Strategies
+2. **Implement the observer interface**: Implement the interface named `Observer` with a method that accepts the task
+   and the team member as arguments. Observer classes (such as `AlertService`, `EmailService`, `SlackService`) will
+   implement this interface to receive notifications.
 
-1. Create three concrete strategy classes, each corresponding to a different video quality (LOW, MEDIUM, HIGH).
-   Implement the `supportsType` method to return the supported quality.
-2. Implement the `adjust` method for each concrete strategy to adjust the `Video` object's quality settings based on the
-   quality level. Copy the implementation code from the original `VideoStreamingManager` class.
+3. **Implement the publisher interface**: You have been provided with a `Publisher` abstract class. Your task is to
+   implement the methods required by this interface in the `TaskManager` class. The `Publisher` interface defines
+   methods that allow observers to subscribe and unsubscribe.
 
-### Task 3: Update `VideoStreamingManager`
+4. **Modify the observers**: Refactor the observer classes to implement the `Observer` interface. Update their existing
+   methods to match the new interface method signature.
 
-1. Modify the `VideoStreamingManager` class to accept a `QualityAdjustmentStrategy` object in the constructor.
-2. Implement the `streamVideo` method in the `VideoStreamingManager` class to use the provided strategy to adjust the
-   video's quality settings.
+5. **Modify the publisher**: Refactor the `TaskManager` class as required. Implement the publisher methods to manage
+   observer subscriptions and notify observers when a task is assigned.
 
-## Testing Instructions
+6. **Test your implementation**: Run the provided test cases in the `TaskManagerTest` class to ensure that your observer
+   pattern implementation is correct. These test cases will check if observers are being notified correctly and if the
+   `TaskManager` behaves as expected.
 
-1. Ensure that you have implemented the Strategy pattern correctly by passing the provided test cases in the
-   `VideoStreamingManagerTest` class.
-2. The test cases validate that there are three concrete strategies, that the `QualityAdjustmentStrategy` interface has
-   the required methods, and that the `VideoStreamingManager` class is correctly updated to use the strategy for quality
-   adjustment.
-3. Make sure that the `adjust` method in each strategy class correctly adjusts the video's quality settings based on the
-   supported quality.
+## Instructions
 
-Remember to refactor the existing code to use the Strategy pattern and ensure that your tests pass successfully. Good
-luck with your assignment!
+1. Implement the Observer pattern by creating the `Observer` interface, modifying the observer classes (`AlertService`,
+   `EmailService`, `SlackService`), and updating the `TaskManager` class.
+2. Run the provided test cases in the `TaskManagerTest` class to verify the correctness of your observer pattern
+   implementation.

@@ -52,18 +52,18 @@ different modules covering:
     - **Behavioural Design Patterns**
         - 🏢 Strategy [🔗](/lld-2/src/main/java/behavioural/strategy)
             - Strategy Pattern for Video Streaming Quality Adjustment
-              ♟️📈 [🔗](/lld-2/src/main/java/behavioural/strategy/q1)
+              🎥📶 [🔗](/lld-2/src/main/java/behavioural/strategy/q1)
             - Refactoring Pricing Calculation with the Strategy Pattern
-              ️📈 [🔗](/lld-2/src/main/java/behavioural/strategy/q2)
-            - Refactoring Pricing Calculation with the Strategy Pattern
-              📈 [🔗](/lld-2/src/main/java/behavioural/strategy/q3)
+              ️💵🧮 [🔗](/lld-2/src/main/java/behavioural/strategy/q2)
+            - Strategy Pattern for Stock Trading Indicators
+              📊💹 [🔗](/lld-2/src/main/java/behavioural/strategy/q3)
         - 🛠️ Observer [🔗](/lld-2/src/main/java/behavioural/observer)
             - Observer Pattern for Stock Trading Platform
-              ♟️📈 [🔗](/lld-2/src/main/java/behavioural/observer/q1)
+              📈💹 [🔗](/lld-2/src/main/java/behavioural/observer/q1)
             - Observer Pattern for Weather Monitoring System
-              ️📈 [🔗](/lld-2/src/main/java/behavioural/observer/q2)
-            - Refactoring Pricing Calculation with the Strategy Pattern
-              📈 [🔗](/lld-2/src/main/java/behavioural/observer/q3)
+              ️🌦️🌡️ [🔗](/lld-2/src/main/java/behavioural/observer/q2)
+            - Observer Pattern for Task Management Application
+              ✅📅 [🔗](/lld-2/src/main/java/behavioural/observer/q3)
 
 3. **Low Level Design 3 (Design Problems)** [🔗](/lld-3/)
     - **Hotel Management System** 🏨
