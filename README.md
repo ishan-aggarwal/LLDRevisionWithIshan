@@ -93,6 +93,7 @@ different modules covering:
     - **Implement functionality using which customers can browse the menu items**
       🍽️📜 [🔗](/lld-3/src/main/java/class6/getmenuitems)
     - **Add Menu Items for Restaurant Management System** 🍽️📜 [🔗](/lld-3/src/main/java/class6/addmenuitems)
+    - **Implement Inventory Management for an E-Commerce Platform** [🔗](/lld-3/src/main/java/class8/inventorymanagement)
 
 ## Recent Updates
 
