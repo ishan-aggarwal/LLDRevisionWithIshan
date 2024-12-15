@@ -1,8 +1,7 @@
-package structural.adapter.q1;
+package structural.facade.q1;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
-import structural.facade.q1.BookingManager;
 import structural.facade.q1.models.PaymentStatus;
 import structural.facade.q1.services.*;
 

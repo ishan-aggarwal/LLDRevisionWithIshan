@@ -41,6 +41,7 @@ different modules covering:
     - **Structural Design Patterns**
         - 🏢 Facade [🔗](/lld-2/src/main/java/structural/facade)
             - Facade pattern for a travel booking platform 🌍✈️ [🔗](/lld-2/src/main/java/structural/facade/q1)
+            - Facade pattern for Data Analysis Application 📑 [🔗](/lld-2/src/main/java/structural/facade/q2)
 
 3. **Low Level Design 3 (Design Problems)** [🔗](/lld-3/)
     - **Hotel Management System** 🏨
@@ -56,7 +57,8 @@ different modules covering:
     - **Board Game Creation Factory Design Pattern** 🎮 [🔗](/lld-3/src/main/java/class3/boardgamecreation)
     - **Database Connection Factory Design Pattern** 🔗🛠️ [🔗](/lld-3/src/main/java/class3/databaseconnection)
     - **Integrate Cloud Service Provider** ☁️📡 [🔗](/lld-3/src/main/java/class3/cloudproviders)
-    - **Integrate Payment Gateway for Restaurant Management System** 💳🍴 [🔗](/lld-3/src/main/java/class5/changepaymentgateway)
+    - **Integrate Payment Gateway for Restaurant Management System**
+      💳🍴 [🔗](/lld-3/src/main/java/class5/changepaymentgateway)
 
 ## Recent Updates
 
