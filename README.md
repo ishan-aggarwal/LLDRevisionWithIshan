@@ -96,6 +96,8 @@ different modules covering:
     - **Implement Inventory Management for an E-Commerce Platform** [🔗](/lld-3/src/main/java/class8/inventorymanagement)
     - **Estimate delivery time functionality for an e-commerce platform** [🔗](/lld-3/src/main/java/class8/deliveryestimate)
     - **Implement notify users for out of stock products functionality for an e-commerce platform** [🔗](/lld-3/src/main/java/class8/outofstocknotification)
+    - **Implement cancel order functionality for an e-commerce platform** [🔗](/lld-3/src/main/java/class8/cancelorder) 
+    - **Implement URL Shortener like bit.ly** [🔗](/lld-3/src/main/java/class8/bitlyshortenurl)
 
 ## Recent Updates
 
