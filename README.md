@@ -102,6 +102,8 @@ different modules covering:
     - **Register user for Book My Show** 🎟️👤 [🔗](/_register-user)
     - **Implement place order functionality for an e-commerce platform** [🔗](/_ecom_place_order)
     - **Create a show for Book My Show** [🔗](/_bms_create_show)
+    - **Implement book ticket for Book My Show** [🔗](/_bms_bookticket)
+    - **Implement Show ads on an ecommerce platform** [🔗](/_show_ads)
 
 ## Recent Updates
 
