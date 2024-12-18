@@ -110,6 +110,10 @@ different modules covering:
     - **Implement Show ads on an ecommerce platform** [🔗](/_show_ads)
     - **Implement match delivery partners with tasks for a Quick Commerce Delivery platform** [🔗](/_match_partner_and_task)
 
+4. **Low Level Design Additional Problems** [🔗](/additional-problems/)
+    - **Implement Coupon Recommendation Service** [🔗](/additional-problems/coupon_recommendation_system/)
+
+
 ## Recent Updates
 
 - **README.md**: Updated the README file 📄.
