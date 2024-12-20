@@ -1,26 +1,44 @@
 package generics.problems.q1;
-// Q1. Generic Pair
+
 public class Pair<T, U> {
     private T first;
     private U second;
 
-    private Pair(T first, U second) {
+    // Constructor to initialize the Pair with two values
+    public Pair(T first, U second) {
         this.first = first;
         this.second = second;
     }
 
+    // Method to get the first value of the Pair
     public T getFirst() {
-        return this.first;
+        return first;
     }
 
+    // Method to get the second value of the Pair
     public U getSecond() {
-        return this.second;
+        return second;
     }
 
     public static void main(String[] args) {
-        Pair<Integer, String> integerStringPair = new Pair<>(10, "Ishan");
-        System.out.println("Integer-String: " +
-                integerStringPair.getFirst() + " " + integerStringPair.getSecond());
-    }
+        // Create an instance of the 'Pair' class with Integer and String values
+        Pair<Integer, String> intStringPair = new Pair<>(10, "Hello");
+        System.out.println("Integer-String Pair: " + intStringPair.getFirst() + ", " + intStringPair.getSecond());
 
+        // Pair with a String and a Double
+        Pair<String, Double> stringDoublePair = new Pair<>("Pi", 3.14);
+        System.out.println("String-Double Pair: " + stringDoublePair.getFirst() + ", " + stringDoublePair.getSecond());
+
+        // Create an instance of the 'Pair' class with Boolean values
+        Pair<Boolean, Boolean> booleanPair = new Pair<>(true, false);
+        System.out.println("Boolean Pair: " + booleanPair.getFirst() + ", " + booleanPair.getSecond());
+
+        // Pair with null values
+        Pair<String, String> nullPair = new Pair<>(null, null);
+        System.out.println("Pair with nulls: " + nullPair.getFirst() + ", " + nullPair.getSecond());
+
+        // Pair with Integer boundary values
+        Pair<Integer, Integer> boundaryPair = new Pair<>(Integer.MIN_VALUE, Integer.MAX_VALUE);
+        System.out.println("Integer Boundary Pair: " + boundaryPair.getFirst() + ", " + boundaryPair.getSecond());
+    }
 }
