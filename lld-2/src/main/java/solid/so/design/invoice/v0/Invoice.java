@@ -1,4 +1,4 @@
-package solid.so.v0;
+package solid.so.design.invoice.v0;
 
 import lombok.Data;
 

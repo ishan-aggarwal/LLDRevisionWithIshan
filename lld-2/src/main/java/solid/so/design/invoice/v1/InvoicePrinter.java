@@ -1,4 +1,4 @@
-package solid.so.v2;
+package solid.so.design.invoice.v1;
 
 public class InvoicePrinter {
     private Invoice invoice;

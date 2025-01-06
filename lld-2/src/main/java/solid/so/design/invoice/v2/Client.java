@@ -1,4 +1,4 @@
-package solid.so.v2;
+package solid.so.design.invoice.v2;
 
 public class Client {
     public static void main(String[] args) {
