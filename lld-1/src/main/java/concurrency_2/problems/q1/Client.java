@@ -18,6 +18,6 @@ public class Client {
         Future<List<Integer>> futureResult = executorService.submit(arrayCreator);
         List<Integer> list = futureResult.get();
         System.out.println(list);
-        executorService.shutdown();
+//        executorService.shutdown();
     }
 }
