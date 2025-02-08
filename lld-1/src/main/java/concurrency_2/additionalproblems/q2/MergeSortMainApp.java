@@ -10,9 +10,9 @@ public class MergeSortMainApp {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
 
-        ExecutorService es = Executors.newFixedThreadPool(3);
-        //List<Integer> list=List.of(7,8,1,9,3,4,3,0,6,10);
-        List<Integer> list = List.of(3, 2, 1);
+        ExecutorService es = Executors.newCachedThreadPool();
+        List<Integer> list=List.of(7,8,1,9,3,4,3,0,6,10);
+//        List<Integer> list = List.of(3, 2, 1);
 
         MergeSortCallable mergeSorted = new MergeSortCallable(list, es);
         Future<List<Integer>> ans = es.submit(mergeSorted);
