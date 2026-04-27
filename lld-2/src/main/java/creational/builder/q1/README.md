@@ -24,11 +24,11 @@ the main object.
    dummy class has been provided for you to start with. Remember to annotate the class with the `@WithBuilder`
    annotation. The name does not matter as long as it is annotated.
 
-3. **Test your implementation**: Test cases has been provided for you to test your implementation. Run the test case to
+3. **Test your implementation**: Test cases has been provided for you to doubts your implementation. Run the doubts case to
    ensure that your implementation is correct.
 
 ## Instructions
 
 1. Create a new class annotated with the `@WithBuilder` annotation.
 2. Implement the builder pattern within your `MessageBuilder` class.
-3. Run the provided test cases in the `MessageBuilderTest` class to verify the correctness of your implementation.
+3. Run the provided doubts cases in the `MessageBuilderTest` class to verify the correctness of your implementation.

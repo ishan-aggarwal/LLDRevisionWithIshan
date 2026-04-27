@@ -8,4 +8,12 @@ public class Person {
         this.age = age;
         this.name = name;
     }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getName() {
+        return name;
+    }
 }

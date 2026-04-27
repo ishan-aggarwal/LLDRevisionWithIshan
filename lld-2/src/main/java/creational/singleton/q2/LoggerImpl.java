@@ -19,7 +19,6 @@ public class LoggerImpl implements Logger {
     }
 
     public static synchronized Logger getInstance() {
-
         if (instance == null) {
             synchronized (LoggerImpl.class) {
                 if (instance == null) {

@@ -63,5 +63,5 @@ which are concrete decorators that add specific filters to the image editing app
 4. Create the `BlurImageDecorator` class to add a blur effect to the image.
 5. Create the `SharpenImageDecorator` class to add a sharpen effect to the image.
 6. Create the `GrayscaleImageDecorator` class to add a grayscale effect to the image.
-7. Run the provided test cases in the `TestImageDecorator` class to verify the correctness of your implementation. You
-   are not required to edit the test cases themselves.
+7. Run the provided doubts cases in the `TestImageDecorator` class to verify the correctness of your implementation. You
+   are not required to edit the doubts cases themselves.

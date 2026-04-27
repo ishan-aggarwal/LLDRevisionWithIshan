@@ -6,18 +6,17 @@ public class Rectangle {
     int width;
 
     Point getBottomRight() {
-        Point p = new Point();
-        p.x = topLeft.x + width;
-        p.y = topLeft.y - height;
-        return p;
+        Point br = new Point();
+        br.x = this.topLeft.x + this.width;
+        br.y = this.topLeft.y - this.height;
+        return br;
     }
 
     int getArea() {
-        return height * width;
+        return this.height * this.width;
     }
 
     int getPerimeter() {
-        return 2 * (height + width);
+        return 2 * (this.height + this.width);
     }
-
 }

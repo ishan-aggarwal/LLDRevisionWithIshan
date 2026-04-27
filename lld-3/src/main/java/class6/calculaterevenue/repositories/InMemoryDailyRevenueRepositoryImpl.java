@@ -34,6 +34,4 @@ public class InMemoryDailyRevenueRepositoryImpl implements DailyRevenueRepositor
             return (date.compareTo(startDate) >= 0 || equalDates(date, startDate)) && (date.compareTo(endDate) <= 0 || equalDates(date, endDate));
         }).toList();
     }
-
-
 }

@@ -7,7 +7,7 @@ public class WordCounter {
     public static long countWords(List<String> sentences) {
         long wordCount = sentences.stream()
                 .filter(sentence -> !sentence.contains("Java"))
-                .map(sentence -> sentence.split("\\s+"))
+                .map(sentence -> sentence.split(" "))
                 .flatMap(Arrays::stream)
                 .distinct()
                 .count();

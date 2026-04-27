@@ -36,6 +36,6 @@ processors, parsers, and printers are compatible within the same family.
 2. Create concrete implementations of the `DocumentFactory` interface for text and spreadsheet documents. Implement the
    methods to create compatible document processors, parsers, and printers.
 
-3. Run the provided test cases in the `DocumentFactoryTest` class to verify the correctness of your implementation. The
+3. Run the provided doubts cases in the `DocumentFactoryTest` class to verify the correctness of your implementation. The
    tests will check if all document processors have a common parent class, and if the factory classes can correctly
    create document processors, parsers, and printers based on the document type and name.

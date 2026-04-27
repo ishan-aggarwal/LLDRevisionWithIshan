@@ -13,6 +13,4 @@ public abstract class DocumentFactory {
     public abstract DocumentPrinter createPrinter(DocumentProcessor processor);
 
     public abstract DocumentType supportsType();
-
-
 }

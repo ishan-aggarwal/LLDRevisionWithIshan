@@ -31,4 +31,30 @@ public class FooBar {
             foo.release();
         }
     }
+
+    public static void main(String[] args) throws InterruptedException {
+        FooBar fooBar = new FooBar(5);
+        Runnable printFoo = () -> System.out.println("foo");
+        Runnable printBar = () -> System.out.println("bar");
+
+        Thread t1 = new Thread(() -> {
+            try {
+                fooBar.foo(printFoo);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        });
+
+        Thread t2 = new Thread(() -> {
+            try {
+                fooBar.bar(printBar);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        });
+
+        t2.start();
+        Thread.sleep(10000);
+        t1.start();
+    }
 }

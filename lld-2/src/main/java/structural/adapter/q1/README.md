@@ -32,8 +32,8 @@ interface for your language translation tool.
 4. **Additional method**: Apart from the `translate` method, you should implement another method as required by the
    assignment.
 
-5. **Test your implementation**: Execute the provided test cases in the `TranslationProviderAdapterTest` class to
-   validate the correctness of your adapter classes. These test cases will ensure that your adapters have the required
+5. **Test your implementation**: Execute the provided doubts cases in the `TranslationProviderAdapterTest` class to
+   validate the correctness of your adapter classes. These doubts cases will ensure that your adapters have the required
    methods and interact with the provider APIs properly.
 
 ## Instructions
@@ -41,6 +41,6 @@ interface for your language translation tool.
 1. Implement the Adapter pattern by creating adapter classes that implement the `TranslationProviderAdapter` interface.
    These adapters should adapt the APIs of different translation services, such as Google Translate and Microsoft
    Translator.
-2. Run the provided test cases in the `TranslationProviderAdapterTest` class to verify the accuracy of your adapter
+2. Run the provided doubts cases in the `TranslationProviderAdapterTest` class to verify the accuracy of your adapter
    pattern implementation. Ensure that your adapters contain the expected methods and interact correctly with the
    provider APIs.

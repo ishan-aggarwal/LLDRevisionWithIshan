@@ -25,7 +25,7 @@ class that provides a unified and simplified interface for these complex operati
    constructor of your `BookingFacade` class should take the same arguments that the `BookingManager` class constructor
    does. This allows you to pass the necessary dependencies to the facade.
 
-4. **Test your implementation**: Test cases have been provided for you to test your implementation. Run the test cases
+4. **Test your implementation**: Test cases have been provided for you to doubts your implementation. Run the doubts cases
    to ensure that your facade class works correctly and provides the expected functionality.
 
 ## Instructions
@@ -33,4 +33,4 @@ class that provides a unified and simplified interface for these complex operati
 1. Create a new class named `BookingFacade`.
 2. Implement the Facade pattern within your `BookingFacade` class to encapsulate interactions with external services.
 3. Ensure that your `BookingFacade` constructor takes the same arguments as the `BookingManager` constructor.
-4. Run the provided test cases in the `BookingManagerTest` class to verify the correctness of your implementation.
+4. Run the provided doubts cases in the `BookingManagerTest` class to verify the correctness of your implementation.

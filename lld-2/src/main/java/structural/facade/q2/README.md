@@ -26,7 +26,7 @@ facade class that provides a unified and simplified interface for data analysts 
    constructor of your `DataAnalysisFacade` class should take the same arguments that the existing components require.
    This allows you to pass the necessary parameters to the facade.
 
-4. **Test your implementation**: Test cases have been provided for you to verify your implementation. Run the test cases
+4. **Test your implementation**: Test cases have been provided for you to verify your implementation. Run the doubts cases
    to ensure that your facade class works correctly and provides the expected functionality.
 
 ## Instructions
@@ -34,4 +34,4 @@ facade class that provides a unified and simplified interface for data analysts 
 1. Create a new class named `DataAnalysisFacade`.
 2. Implement the Facade pattern within your `DataAnalysisFacade` class to simplify the data analysis workflow.
 3. Make sure that your `DataAnalysisFacade` constructor takes the same arguments as the existing components.
-4. Run the provided test cases in the `DataAnalysisFacadeTest` class to verify the correctness of your implementation.
+4. Run the provided doubts cases in the `DataAnalysisFacadeTest` class to verify the correctness of your implementation.

@@ -33,6 +33,6 @@ appropriate audio player class based on the format provided and the relevant arg
 2. Implement the `AudioPlayerFactory` class that implements the Simple Factory pattern. Add a method to create audio
    player objects based on the audio format and relevant arguments.
 
-3. Run the provided test cases in the `AudioPlayerTest` class to verify the correctness of your implementation. The
+3. Run the provided doubts cases in the `AudioPlayerTest` class to verify the correctness of your implementation. The
    tests will check if all audio player classes are implemented correctly and if the factory class is able to create
    audio player objects for different audio formats.

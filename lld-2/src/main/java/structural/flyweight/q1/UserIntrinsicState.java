@@ -1,7 +1,9 @@
 package structural.flyweight.q1;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 
+@AllArgsConstructor
 @IntrinsicState
 @Getter
 public class UserIntrinsicState {

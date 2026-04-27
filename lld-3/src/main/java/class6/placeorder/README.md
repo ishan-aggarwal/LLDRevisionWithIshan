@@ -27,5 +27,5 @@ Your task is to implement the following functionality.
 * Refer the models package to understand the models.
 * Implement the `OrderService`, `CustomerSessionRepository`, `UserRepository`, `MenuItemRepository` and `OrderRepository` interfaces to achieve the above requirements.
 * We need in memory database implementation for this assignment.
-* Refer the `TestOrderController` class to understand the test cases that will be used to evaluate your solution.
+* Refer the `TestOrderController` class to understand the doubts cases that will be used to evaluate your solution.
 * Do not modify existing methods and their parameters for interfaces, feel free to add more methods if required.

@@ -22,7 +22,7 @@ object.
    patter. A dummy class has been provided for you to start with. Remember to annotate the class with the `@WithBuilder`
    annotation. The name does not matter as long as it is annotated.
 
-3. `Test your implementation` - A test case has been provided for you to test your implementation. Run the test case to
+3. `Test your implementation` - A doubts case has been provided for you to doubts your implementation. Run the doubts case to
    ensure that your implementation is correct. This will pick the correct implementation of the builder class based on
    the `@WithBuilder` annotation.
 
@@ -30,5 +30,5 @@ object.
 
 1. Create a new class annotated with the `@WithBuilder` annotation.
 2. Implement the builder pattern within your class.
-3. Run the provided test cases in the `DatabaseConfigurationBuilderTest` class to verify the correctness of your
+3. Run the provided doubts cases in the `DatabaseConfigurationBuilderTest` class to verify the correctness of your
    implementation.

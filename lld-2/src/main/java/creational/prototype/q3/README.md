@@ -32,7 +32,7 @@ creating configurations with specific attributes.
    interface. In this class, manage a collection of configuration prototypes and provide methods to add prototypes,
    retrieve prototypes by type, and clone configuration objects based on their type.
 
-5. **Test your implementation**: Write test cases to ensure that the `Configuration` class correctly implements the
+5. **Test your implementation**: Write doubts cases to ensure that the `Configuration` class correctly implements the
    `Configurable` interface, and the registry class properly manages prototypes and performs cloning operations. Verify
    that cloning a configuration object results in a new object with the same attribute values but is not the same object
    in memory.
@@ -43,6 +43,6 @@ creating configurations with specific attributes.
    a proper `clone` method.
 2. Create the `ConfigurationPrototypeRegistry` interface and implement a registry class that manages configuration
    prototypes and cloning operations.
-3. Run the provided test cases in the `ConfigurationPrototypeRegistryTest` class to validate the correctness of your
+3. Run the provided doubts cases in the `ConfigurationPrototypeRegistryTest` class to validate the correctness of your
    prototype pattern implementation. Ensure that configuration objects can be cloned successfully, and that the registry
    functions as expected.

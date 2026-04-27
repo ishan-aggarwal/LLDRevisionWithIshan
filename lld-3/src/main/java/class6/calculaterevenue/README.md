@@ -38,5 +38,5 @@ Your task is to implement the following functionality.
 * Implement the `RevenueService`, `UserRepository` and `DailyRevenueRepository` interfaces to achieve the above
   requirements.
 * We need in memory database implementation for this assignment.
-* Refer the `TestRevenueController` class to understand the test cases that will be used to evaluate your solution.
+* Refer the `TestRevenueController` class to understand the doubts cases that will be used to evaluate your solution.
 * Do not modify existing methods and their parameters for interfaces, feel free to add more methods if required.

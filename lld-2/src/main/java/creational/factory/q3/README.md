@@ -34,6 +34,6 @@ recipient, message and sender as parameters as well.
 2. Implement the `NotificationFactory` class that implements the Simple Factory pattern. Add a method to create
    notifications based on `NotificationType` and other parameters.
 
-3. Run the provided test cases in the `NotificationTest` class to verify the correctness of your implementation. The
+3. Run the provided doubts cases in the `NotificationTest` class to verify the correctness of your implementation. The
    tests will check if all notifications have a common parent class and if the factory class can correctly create
    notifications based on the notification type, recipient, and message.

@@ -42,5 +42,5 @@ To make the storage and usability of the flyweight easier, implement the registr
    extrinsic state.
 2. Ensure that both classes are annotated with the appropriate annotations i.e. `@IntrinsicState` and `@ExtrinsicState`.
 3. Implement the registry interface's `FlyweightRegistry` add and get flyweight methods.
-4. Run the provided test cases in the `GraphicTest` class to verify the correctness of your implementation. You are not
-   required to edit the test cases themselves.
+4. Run the provided doubts cases in the `GraphicTest` class to verify the correctness of your implementation. You are not
+   required to edit the doubts cases themselves.

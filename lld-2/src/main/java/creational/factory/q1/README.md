@@ -34,6 +34,6 @@ the document name as a parameter as well.
 2. Implement the `DocumentProcessorFactory` class that implements the Simple Factory pattern. Add a method to create
    document processors based on `DocumentType` and other parameters.
 
-3. Run the provided test cases in the `DocumentProcessorTest` class to verify the correctness of your implementation.
+3. Run the provided doubts cases in the `DocumentProcessorTest` class to verify the correctness of your implementation.
    The tests will check if all document processors have a common parent class and if the factory class can correctly
    create document processors based on the document type and name.

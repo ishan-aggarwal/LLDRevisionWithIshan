@@ -10,59 +10,64 @@ public class MessageBuilder {
     private boolean isDelivered;
     private long timestamp;
 
-    public static Builder builder() {
+
+    private MessageBuilder(Builder builder) {
+        this.messageType = builder.messageType;
+        this.content = builder.content;
+        this.sender = builder.sender;
+        this.recipient = builder.recipient;
+        this.isDelivered = builder.isDelivered;
+        this.timestamp = builder.timestamp;
+    }
+
+    public static Builder getBuilder() {
         return new Builder();
     }
 
     public static class Builder {
+        private MessageType messageType;
+        private String content;
+        private String sender;
+        private String recipient;
+        private boolean isDelivered;
+        private long timestamp;
 
-        private MessageBuilder messageBuilder;
-
-        public Builder() {
-            messageBuilder = new MessageBuilder();
-        }
-
-        public Builder messageType(MessageType messageType) {
-            messageBuilder.messageType = messageType;
+        public Builder setMessageType(MessageType messageType) {
+            this.messageType = messageType;
             return this;
         }
 
-        public Builder content(String content) {
-            messageBuilder.content = content;
+        public Builder setContent(String content) {
+            this.content = content;
             return this;
         }
 
-        public Builder sender(String sender) {
-            messageBuilder.sender = sender;
+        public Builder setSender(String sender) {
+            this.sender = sender;
             return this;
         }
 
-        public Builder recipient(String recipient) {
-            messageBuilder.recipient = recipient;
+        public Builder setRecipient(String recipient) {
+            this.recipient = recipient;
             return this;
         }
 
-        public Builder isDelivered(boolean isDelivered) {
-            messageBuilder.isDelivered = isDelivered;
+        public Builder setIsDelivered(boolean isDelivered) {
+            this.isDelivered = isDelivered;
             return this;
         }
 
-        public Builder timestamp(long timestamp) {
-            messageBuilder.timestamp = timestamp;
+        public Builder setTimestamp(long timestamp) {
+            this.timestamp = timestamp;
             return this;
         }
 
         public MessageBuilder build() {
-
-            MessageBuilder messageBuilder = new MessageBuilder();
-            messageBuilder.messageType = this.messageBuilder.messageType;
-            messageBuilder.content = this.messageBuilder.content;
-            messageBuilder.sender = this.messageBuilder.sender;
-            messageBuilder.recipient = this.messageBuilder.recipient;
-            messageBuilder.isDelivered = this.messageBuilder.isDelivered;
-            messageBuilder.timestamp = this.messageBuilder.timestamp;
-            return messageBuilder;
+            return new MessageBuilder(this);
         }
     }
 
+    public static void main(String[] args) {
+        MessageBuilder messageBuilder = MessageBuilder.getBuilder().setContent("abc").setIsDelivered(true).build();
+    }
 }

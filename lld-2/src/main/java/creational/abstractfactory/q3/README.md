@@ -30,7 +30,7 @@ type. Ensure that the created components are compatible within the same family.
 
 ### Task 3 - Testing the Implementation
 
-Run the provided test cases in the `NotificationFactoryTest` class to verify the correctness of your implementation. The
+Run the provided doubts cases in the `NotificationFactoryTest` class to verify the correctness of your implementation. The
 tests will check if all notifications have a common parent class, and if the factory classes can correctly create
 notifications, notification providers, and notification templates based on the notification type and content.
 
@@ -42,6 +42,6 @@ notifications, notification providers, and notification templates based on the n
 2. Create concrete implementations of the `NotificationFactory` interface for email, SMS, and push notifications.
    Implement the methods to create compatible components for each notification type.
 
-3. Run the provided test cases in the `NotificationFactoryTest` class to verify the correctness of your implementation.
+3. Run the provided doubts cases in the `NotificationFactoryTest` class to verify the correctness of your implementation.
    The tests will ensure that the factory classes can correctly create notification components based on the notification
    type and content.

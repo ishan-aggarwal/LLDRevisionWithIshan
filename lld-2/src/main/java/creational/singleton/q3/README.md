@@ -53,4 +53,4 @@ You have to implement the following methods:
 
 1. Implement the `ConnectionPool` interface and the required methods as specified above.
 2. Ensure that your implementation follows the Singleton design pattern and provides proper connection pool management.
-3. Run the provided test cases in the `ConnectionPoolTest` class to verify the correctness of your implementation.
+3. Run the provided doubts cases in the `ConnectionPoolTest` class to verify the correctness of your implementation.

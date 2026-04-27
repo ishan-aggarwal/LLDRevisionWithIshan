@@ -34,9 +34,9 @@ existing code provides a starting point, but you need to complete the implementa
 
 ## Testing Instructions
 
-1. Ensure that you have implemented the Strategy pattern correctly by passing the provided test cases in the
+1. Ensure that you have implemented the Strategy pattern correctly by passing the provided doubts cases in the
    `VideoStreamingManagerTest` class.
-2. The test cases validate that there are three concrete strategies, that the `QualityAdjustmentStrategy` interface has
+2. The doubts cases validate that there are three concrete strategies, that the `QualityAdjustmentStrategy` interface has
    the required methods, and that the `VideoStreamingManager` class is correctly updated to use the strategy for quality
    adjustment.
 3. Make sure that the `adjust` method in each strategy class correctly adjusts the video's quality settings based on the

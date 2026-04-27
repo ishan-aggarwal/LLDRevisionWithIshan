@@ -48,8 +48,8 @@ accommodate various pricing strategies, making it easier to adjust pricing rules
    pricing logic and instead delegating the price calculation to the selected pricing strategy. The `PricingManager`
    class should now use composition to hold an instance of the selected pricing strategy.
 
-4. **Test Your Refactored Code**: Write test cases to ensure that the refactored code produces accurate pricing
-   calculations for each pricing strategy. You should test different scenarios to verify that each strategy behaves as
+4. **Test Your Refactored Code**: Write doubts cases to ensure that the refactored code produces accurate pricing
+   calculations for each pricing strategy. You should doubts different scenarios to verify that each strategy behaves as
    expected.
 
 ## Instructions
@@ -59,7 +59,7 @@ accommodate various pricing strategies, making it easier to adjust pricing rules
     - Implement separate pricing strategy classes for distance-based, time-based, and surge pricing.
     - Refactor the `PricingManager` class to use the selected pricing strategy.
 
-2. Write test cases to validate the correctness of your refactored code. Ensure that the pricing calculations for each
+2. Write doubts cases to validate the correctness of your refactored code. Ensure that the pricing calculations for each
    strategy are accurate and match the original monolithic pricing logic.
 
-3. Submit your refactored code and test cases for evaluation.
+3. Submit your refactored code and doubts cases for evaluation.

@@ -29,7 +29,7 @@ We need to implement a functionality using which customers can add themselves to
 * Implement the relevant methods of `WaitListService`, `UserRepository` and `WaitListRepository` classes to achieve the
   above requirements.
 * Refer the models package to understand the models to be used.
-* Take a look at the test cases in WaitListControllerTest class to understand the requirements better.
+* Take a look at the doubts cases in WaitListControllerTest class to understand the requirements better.
 
 ### Task 2 - Get Position in the Wait List
 
@@ -51,7 +51,7 @@ We need to implement a functionality using which customers can get their positio
 * Implement the relevant methods of `WaitListService`, `UserRepository` and `WaitListRepository` classes to achieve the
   above requirements.
 * Refer the models package to understand the models to be used.
-* Take a look at the test cases in WaitListControllerTest class to understand the requirements better.
+* Take a look at the doubts cases in WaitListControllerTest class to understand the requirements better.
 
 ### Task 3 - Remove Customer from the Wait List
 

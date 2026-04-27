@@ -21,8 +21,8 @@ public class MergeSortCallable implements Callable<List<Integer>> {
         if (unsortedArray.size() <= 1) {
             return unsortedArray;
         }
-        int n = unsortedArray.size();
-        int mid = n / 2;
+        int n = unsortedArray.size(); // 10
+        int mid = n / 2; // 5
 
 //        System.out.printf("Sorting %s with mid:%s and size:%s on thread %s\n",
 //                unsortedArray, mid, n, Thread.currentThread().getName());
@@ -30,10 +30,12 @@ public class MergeSortCallable implements Callable<List<Integer>> {
         List<Integer> leftUnsorted = new ArrayList<>();
         List<Integer> rightUnsorted = new ArrayList<>();
 
+        // 0 to mid-1
         for (int i = 0; i < mid; i++) {
             leftUnsorted.add(unsortedArray.get(i));
         }
 
+        // mid to n-1
         for (int i = mid; i < n; i++) {
             rightUnsorted.add(unsortedArray.get(i));
         }

@@ -9,7 +9,7 @@ import java.util.concurrent.Future;
 
 public class Client {
 
-    public static void main(String[] args) throws ExecutionException, InterruptedException {
+    public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
 

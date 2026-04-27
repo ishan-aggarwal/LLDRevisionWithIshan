@@ -47,5 +47,5 @@ Implement the following methods for configuration management in your extended cl
 
 1. Extend the `FileBasedConfigurationManager` abstract class to create your own configuration manager class.
 2. Implement the required methods within your configuration manager class.
-3. Run the provided test cases in the `FileBasedConfigurationManagerTest` class to verify the correctness of your
+3. Run the provided doubts cases in the `FileBasedConfigurationManagerTest` class to verify the correctness of your
    implementation.

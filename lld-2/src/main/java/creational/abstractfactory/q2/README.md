@@ -35,6 +35,6 @@ renderers. Ensure that the created components are compatible within the same for
 2. Create concrete implementations of the `AudioFactory` interface for MP3, WAV, and FLAC audio formats. Implement the
    methods to create compatible audio decoders, processors, and renderers.
 
-3. Run the provided test cases in the `AudioFactoryTest` class to verify the correctness of your implementation. The
+3. Run the provided doubts cases in the `AudioFactoryTest` class to verify the correctness of your implementation. The
    tests will check if all audio components have a common parent class, and if the factory classes can correctly create
    audio decoders, processors, and renderers based on the audio format.

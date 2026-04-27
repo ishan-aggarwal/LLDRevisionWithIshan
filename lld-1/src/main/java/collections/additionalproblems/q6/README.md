@@ -7,7 +7,7 @@ You are given a class `Person` which stores the data of each person. The `Person
 filtered list.
 
 You need to remove the duplicates based on `name` only, irrespective of the age. If two or more persons have the same
-`name` but different ages, then include the person who came first in the list and discard others.
+`name` but different ages, then include the person who came first in the list and discard doubts.
 
 ## Instructions
 

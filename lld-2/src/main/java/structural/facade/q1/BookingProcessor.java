@@ -43,5 +43,4 @@ public class BookingProcessor {
 
         return BookingResult.success(confirmation);
     }
-
 }

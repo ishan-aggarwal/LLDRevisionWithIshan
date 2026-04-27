@@ -33,13 +33,13 @@ application. The `TaskManager` class handles task assignments, and various obser
 5. **Modify the publisher**: Refactor the `TaskManager` class as required. Implement the publisher methods to manage
    observer subscriptions and notify observers when a task is assigned.
 
-6. **Test your implementation**: Run the provided test cases in the `TaskManagerTest` class to ensure that your observer
-   pattern implementation is correct. These test cases will check if observers are being notified correctly and if the
+6. **Test your implementation**: Run the provided doubts cases in the `TaskManagerTest` class to ensure that your observer
+   pattern implementation is correct. These doubts cases will check if observers are being notified correctly and if the
    `TaskManager` behaves as expected.
 
 ## Instructions
 
 1. Implement the Observer pattern by creating the `Observer` interface, modifying the observer classes (`AlertService`,
    `EmailService`, `SlackService`), and updating the `TaskManager` class.
-2. Run the provided test cases in the `TaskManagerTest` class to verify the correctness of your observer pattern
+2. Run the provided doubts cases in the `TaskManagerTest` class to verify the correctness of your observer pattern
    implementation.

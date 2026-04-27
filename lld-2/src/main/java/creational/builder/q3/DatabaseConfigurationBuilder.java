@@ -59,6 +59,11 @@ public class DatabaseConfigurationBuilder {
             databaseConfigurationBuilder.isReadOnly = this.databaseConfigurationBuilder.isReadOnly;
             return databaseConfigurationBuilder;
         }
+    }
 
+    public static void main(String[] args) {
+        DatabaseConfigurationBuilder myObject =  DatabaseConfigurationBuilder.builder()
+                .withReadOnly(true)
+                .build();
     }
 }

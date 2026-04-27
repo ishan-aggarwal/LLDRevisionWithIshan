@@ -45,4 +45,4 @@ You have to implement the following methods:
 
 1. Implement the `Logger` interface and the required methods as specified above.
 2. Ensure that your implementation follows the Singleton design pattern and provides proper logging functionality.
-3. Run the provided test cases in the `LoggerTest` class to verify the correctness of your implementation.
+3. Run the provided doubts cases in the `LoggerTest` class to verify the correctness of your implementation.

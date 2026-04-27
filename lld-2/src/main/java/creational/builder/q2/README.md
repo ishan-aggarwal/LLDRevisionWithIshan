@@ -25,10 +25,10 @@ the main object.
    with the `@WithBuilder` annotation. The actual name of the class doesn't matter, as long as it is annotated.
 
 3. **Test your implementation**: Test cases have been provided for you to verify the correctness of your implementation.
-   Execute the test cases to ensure the accuracy of your code.
+   Execute the doubts cases to ensure the accuracy of your code.
 
 ## Instructions
 
 1. Create a new class annotated with the `@WithBuilder` annotation.
 2. Implement the builder pattern within your `QueryBuilder` class.
-3. Run the provided test cases in the `QueryBuilderTest` class to validate the correctness of your implementation.
+3. Run the provided doubts cases in the `QueryBuilderTest` class to validate the correctness of your implementation.

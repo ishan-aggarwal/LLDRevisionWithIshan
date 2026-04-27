@@ -3,7 +3,7 @@ package concurrency_1.additionalproblems.q7;
 import java.util.Scanner;
 
 public class Client {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
 
@@ -12,6 +12,5 @@ public class Client {
             ScalerThread t = new ScalerThread(tc);
             t.start();
         }
-
     }
 }

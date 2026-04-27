@@ -48,5 +48,5 @@ method of the decorator classes.
 3. For each decorator class, implement the necessary logic to add the desired functionality, such as logging incoming
    requests or rate-limiting the API endpoints. You can use the utility methods provided in the `ApiUtils` class for
    this purpose.
-4. Run the provided test cases to verify the correctness of your implementation. You are not required to edit the test
+4. Run the provided doubts cases to verify the correctness of your implementation. You are not required to edit the doubts
    cases themselves.

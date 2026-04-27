@@ -10,6 +10,16 @@ public class PrintArrayElements {
         }
     }
 
+//    public static <T> void printArray(T[] arr) {
+//        for (int i = 0; i < arr.length; i++) {
+//            System.out.print(arr[i]);
+//            if (i < arr.length - 1) {
+//                System.out.print(" ");
+//            }
+//        }
+//    }
+
+
     public static void main(String[] args) {
         Integer[] numbers = {1, 2, 3, 4, 5};
         String[] words = {"apple", "banana", "orange"};

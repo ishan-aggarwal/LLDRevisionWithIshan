@@ -130,6 +130,7 @@ public class Game {
         int row = move.getCell().getRow();
         int col = move.getCell().getCol();
 
+        // with in the boundary and cell should be empty
         return row < board.getDimension() && row >= 0 && col < getBoard().getDimension() && col >= 0 &&
                 board.getBoard().get(row).get(col).getCellState().equals(CellState.EMPTY);
     }
@@ -159,7 +160,7 @@ public class Game {
         moves.add(finalMove);
 
         nextPlayerMoveIndex += 1;
-        nextPlayerMoveIndex %= players.size();
+        nextPlayerMoveIndex %= players.size(); // [0 - 1]
         if (checkWinner(board, finalMove)) {
             gameState = GameState.ENDED;
             winner = currentPlayer;

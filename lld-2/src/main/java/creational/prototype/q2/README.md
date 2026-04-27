@@ -33,7 +33,7 @@ generating invoices for testing, making it faster and more resource-efficient.
    In this class, manage a collection of invoice prototypes and provide methods to add prototypes, retrieve prototypes
    by type, and clone invoice objects based on their type.
 
-5. **Test your implementation**: Write test cases to ensure that the `Invoice` class correctly implements the
+5. **Test your implementation**: Write doubts cases to ensure that the `Invoice` class correctly implements the
    `ObjectClonable` interface and that the registry class properly manages prototypes and performs cloning operations.
    Verify that cloning an invoice object results in a new object with the same attribute values but is not the same
    object in memory.
@@ -44,6 +44,6 @@ generating invoices for testing, making it faster and more resource-efficient.
    proper `clone` method.
 2. Create the `InvoicePrototypeRegistry` interface and implement a registry class that manages invoice prototypes and
    cloning operations.
-3. Run the provided test cases in the `InvoicePrototypeRegistryTest` class to validate the correctness of your prototype
+3. Run the provided doubts cases in the `InvoicePrototypeRegistryTest` class to validate the correctness of your prototype
    pattern implementation. Ensure that invoice objects can be cloned successfully and that the registry functions as
    expected.

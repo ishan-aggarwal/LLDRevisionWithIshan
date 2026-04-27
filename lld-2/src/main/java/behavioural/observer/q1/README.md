@@ -32,13 +32,13 @@ The `StockTradingManager` class handles stock price updates, and various observe
 5. **Modify the observers**: Refactor the observer classes to implement the `Observer` interface. Update their existing
    methods to match the new interface method signature.
 
-6. **Test your implementation**: Run the provided test cases in the `StockTradingManagerTest` class to ensure that your
-   observer pattern implementation is correct. These test cases will check if observers are being notified correctly and
+6. **Test your implementation**: Run the provided doubts cases in the `StockTradingManagerTest` class to ensure that your
+   observer pattern implementation is correct. These doubts cases will check if observers are being notified correctly and
    if the StockTradingManager behaves as expected.
 
 ## Instructions
 
 1. Implement the Observer pattern by completing the `Publisher` and `Observer` interface and modifying the observer
    classes (`EmailService`, `SmsService`, `AppService`) and the `StockTradingManager` class.
-2. Run the provided test cases in the `StockTradingManagerTest` class to verify the correctness of your observer pattern
+2. Run the provided doubts cases in the `StockTradingManagerTest` class to verify the correctness of your observer pattern
    implementation.

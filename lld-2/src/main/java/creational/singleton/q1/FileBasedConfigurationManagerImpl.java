@@ -17,7 +17,6 @@ public class FileBasedConfigurationManagerImpl extends FileBasedConfigurationMan
                 if (instance == null) {
                     instance = new FileBasedConfigurationManagerImpl();
                 }
-
             }
         }
         return instance;

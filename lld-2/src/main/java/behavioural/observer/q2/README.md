@@ -33,13 +33,13 @@ thresholds.
 5. **Refactor the observers**: Update the observer classes to implement the `Observer` interface. Modify their existing
    methods to match the new interface method signature.
 
-6. **Test your implementation**: Run the provided test cases in the `WeatherMonitoringTests` class to verify that your
-   observer pattern implementation works correctly. These test cases will check if observers are notified appropriately
+6. **Test your implementation**: Run the provided doubts cases in the `WeatherMonitoringTests` class to verify that your
+   observer pattern implementation works correctly. These doubts cases will check if observers are notified appropriately
    and if the `WeatherMonitoringApplication` functions as expected.
 
 ## Instructions
 
 1. Implement the Observer pattern by completing the `Publisher` and `Observer` interfaces and modifying the observer
    classes (`TemperatureService`, `PressureService`, `HumidityService`) and the `WeatherMonitoringSystem` class.
-2. Run the provided test cases in the `WeatherMonitoringTests` class to verify the correctness of your observer pattern
+2. Run the provided doubts cases in the `WeatherMonitoringTests` class to verify the correctness of your observer pattern
    implementation.

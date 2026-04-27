@@ -9,5 +9,4 @@ public class ChessUser {
     private Colour colour;
     private int currentGameStreak;
     private Byte[] photo;
-
 }

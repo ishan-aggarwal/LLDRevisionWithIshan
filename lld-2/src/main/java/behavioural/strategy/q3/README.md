@@ -35,7 +35,7 @@ Additionally, each strategy should provide a method to check if it supports a sp
 4. **Copy Existing Logic**: For each strategy, copy the existing indicator calculation logic from the original
    `StockTradingManager` class into the corresponding strategy class.
 
-5. **Test Your Implementation**: Write test cases to ensure that each strategy correctly calculates the corresponding
+5. **Test Your Implementation**: Write doubts cases to ensure that each strategy correctly calculates the corresponding
    indicator, and that the `StockTradingManager` class works seamlessly with different strategies.
 
 ## Trading Indicator Calculations
@@ -57,5 +57,5 @@ Additionally, each strategy should provide a method to check if it supports a sp
    respective indicator type.
 3. Copy the existing indicator calculation logic from the original `StockTradingManager` class into the corresponding
    strategy classes.
-4. Write test cases to validate that each strategy calculates the indicator correctly, and that the
+4. Write doubts cases to validate that each strategy calculates the indicator correctly, and that the
    `StockTradingManager` class works as expected with different strategies.

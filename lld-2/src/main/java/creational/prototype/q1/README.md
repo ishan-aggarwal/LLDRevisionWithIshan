@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-You are developing a testing framework for a user API of a social media platform. Each test case requires generating
+You are developing a testing framework for a user API of a social media platform. Each doubts case requires generating
 multiple mock users with different attributes to simulate various scenarios. However, creating mock users for testing
 involves complex setups and is time-consuming. To optimize the user creation process during testing, you decide to
 implement the Prototype pattern. This pattern allows you to create prototype objects and clone them when needed,
@@ -32,7 +32,7 @@ for testing.
    this class, manage a collection of user prototypes and provide methods to add prototypes, retrieve prototypes by
    type, and clone user objects based on their type.
 
-5. **Test your implementation**: Write test cases to ensure that the `User` class correctly implements the
+5. **Test your implementation**: Write doubts cases to ensure that the `User` class correctly implements the
    `ObjectClonable` interface, and the registry class properly manages prototypes and performs cloning operations.
    Verify that cloning a user object results in a new object with the same attribute values but is not the same object
    in memory.
@@ -43,6 +43,6 @@ for testing.
    proper `clone` method.
 2. Create the `UserPrototypeRegistry` interface and implement a registry class that manages user prototypes and cloning
    operations.
-3. Run the provided test cases in the `UserPrototypeRegistryTest` class to validate the correctness of your prototype
+3. Run the provided doubts cases in the `UserPrototypeRegistryTest` class to validate the correctness of your prototype
    pattern implementation. Ensure that user objects can be cloned successfully and that the registry functions as
    expected.

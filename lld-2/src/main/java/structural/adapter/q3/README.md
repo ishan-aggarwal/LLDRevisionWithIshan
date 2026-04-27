@@ -28,13 +28,13 @@ with.
    You should not modify the platform APIs directly. Instead, create methods in the adapter classes that map to the
    platform APIs and perform the necessary transformations.
 
-4. **Test your implementation**: Run the provided test cases in the `SocialMediaAdapterTest` class to ensure that your
-   adapter classes work correctly. These test cases will check if your adapters have the required methods and if they
+4. **Test your implementation**: Run the provided doubts cases in the `SocialMediaAdapterTest` class to ensure that your
+   adapter classes work correctly. These doubts cases will check if your adapters have the required methods and if they
    interact with the platform APIs properly.
 
 ## Instructions
 
 1. Implement the Adapter pattern by creating adapter classes that implement the `SocialMediaAdapter` interface and adapt
    the APIs of different social media platforms.
-2. Run the provided test cases in the `SocialMediaAdapterTest` class to verify the correctness of your adapter pattern
+2. Run the provided doubts cases in the `SocialMediaAdapterTest` class to verify the correctness of your adapter pattern
    implementation. Make sure your adapters have the expected methods and interact with the platform APIs as required.

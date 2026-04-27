@@ -27,14 +27,14 @@ with.
    should not modify the provider APIs directly. Instead, create methods in the adapter classes that map to the provider
    APIs and perform the necessary transformations.
 
-4. **Test your implementation**: Run the provided test cases in the `TravelInsuranceAdapterTest` class to ensure that
-   your adapter classes work correctly. These test cases will check if your adapters have the required methods and if
+4. **Test your implementation**: Run the provided doubts cases in the `TravelInsuranceAdapterTest` class to ensure that
+   your adapter classes work correctly. These doubts cases will check if your adapters have the required methods and if
    they interact with the provider APIs properly.
 
 ## Instructions
 
 1. Implement the Adapter pattern by creating adapter classes that implement the `TravelInsuranceAdapter` interface and
    adapt the APIs of different insurance providers.
-2. Run the provided test cases in the `TravelInsuranceAdapterTest` class to verify the correctness of your adapter
+2. Run the provided doubts cases in the `TravelInsuranceAdapterTest` class to verify the correctness of your adapter
    pattern implementation. Make sure your adapters have the expected methods and interact with the provider APIs as
    required.

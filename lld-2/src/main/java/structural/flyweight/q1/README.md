@@ -52,5 +52,5 @@ To make the storage and retrieval of flyweight objects easier, implement a regis
    `@ExtrinsicState`.
 3. Implement the registry class according to the `FlyweightRegistry` interface. This class should store and provide
    access to flyweight objects based on their type.
-4. Run the provided test cases in the `ChessUserTest` class to validate the correctness of your Flyweight pattern
-   implementation. You are not required to modify the test cases themselves.
+4. Run the provided doubts cases in the `ChessUserTest` class to validate the correctness of your Flyweight pattern
+   implementation. You are not required to modify the doubts cases themselves.

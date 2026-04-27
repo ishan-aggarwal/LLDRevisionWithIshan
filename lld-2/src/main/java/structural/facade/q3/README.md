@@ -24,7 +24,7 @@ simplified interface for users to perform image editing tasks while abstracting 
    Ensure that the constructor of your `ImageEditingFacade` class takes the same arguments that the
    `ImageEditingManager` class constructor does. This will allow you to pass the necessary dependencies to the facade.
 
-4. **Test your implementation**: Test cases have been provided for you to verify your implementation. Run the test cases
+4. **Test your implementation**: Test cases have been provided for you to verify your implementation. Run the doubts cases
    to ensure that your facade class works correctly and provides the expected image editing functionality.
 
 ## Instructions
@@ -32,4 +32,4 @@ simplified interface for users to perform image editing tasks while abstracting 
 1. Create a new class named `ImageEditingFacade`.
 2. Implement the Facade pattern within your `ImageEditingFacade` class to simplify image editing interactions.
 3. Ensure that your `ImageEditingFacade` constructor takes the same arguments as the `ImageEditingManager` constructor.
-4. Run the provided test cases in the `ImageEditingManagerTest` class to verify the correctness of your implementation.
+4. Run the provided doubts cases in the `ImageEditingManagerTest` class to verify the correctness of your implementation.

@@ -60,7 +60,8 @@ public class WaitListServiceImpl implements WaitListService {
         List<WaitListPosition> all = waitListPositionRepository.findAll();
         numberOfSpots = Math.min(numberOfSpots, all.size());
         for (int i = 0; i < numberOfSpots; i++) {
-            waitListPositionRepository.delete(all.get(i));
+//            waitListPositionRepository.delete(all.get(i));
+            waitListPositionRepository.delete(waitListPositionRepository.findAll().get(0));
         }
     }
 }
